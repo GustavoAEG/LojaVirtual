@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LojaVirtual.Application.Commands
 {
-    public class CriarProdutoCommand : IRequest<int>// o Irequest é uma interface doo MediaTR - indica que o command será processado por um handler. retorna tipo T
+    public class CriarProdutoCommand : IRequest<Guid>// o Irequest é uma interface doo MediaTR - indica que o command será processado por um handler. retorna tipo T
     {
         public string Nome { get; }
         public string Descricao { get; }
@@ -15,9 +15,9 @@ namespace LojaVirtual.Application.Commands
         public int Estoque { get; }
         public string Tamanho { get; }
         public string Genero { get; }
-        public int CategoriaId { get; }
+        public Guid CategoriaId { get; }
 
-        public CriarProdutoCommand(string nome, string descricao, decimal preco, int estoque, string tamanho, string genero, int categoriaId)
+        public CriarProdutoCommand(string nome, string descricao, decimal preco, int estoque, string tamanho, string genero, Guid categoriaId)
         {
             Nome = nome;
             Descricao = descricao;
