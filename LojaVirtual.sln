@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual", "LojaVirtual\LojaVirtual.csproj", "{D45163BB-F777-4CBE-8EAE-F37C97A376A7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.API", "LojaVirtual.API\LojaVirtual.API.csproj", "{21E84F5D-D34A-4FC5-823C-CED6F1EB58BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.Application", "LojaVirtual.Application\LojaVirtual.Application.csproj", "{ED13B73A-13AF-4A58-ADAA-C19D5E234657}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.Infrastructure", "LojaVirtual.Infrastructure\LojaVirtual.Infrastructure.csproj", "{9A99ABDF-6526-4A86-A810-72535AD16DE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.Domain", "LojaVirtual.Domain\LojaVirtual.Domain.csproj", "{86A7A636-CF93-482B-BFD1-6E8A2923465D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.API_", "LojaVirtual.API_\LojaVirtual.API_.csproj", "{48D4B1C3-81D1-481C-B0E6-A2F83A24A2D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{D45163BB-F777-4CBE-8EAE-F37C97A376A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D45163BB-F777-4CBE-8EAE-F37C97A376A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D45163BB-F777-4CBE-8EAE-F37C97A376A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21E84F5D-D34A-4FC5-823C-CED6F1EB58BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21E84F5D-D34A-4FC5-823C-CED6F1EB58BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21E84F5D-D34A-4FC5-823C-CED6F1EB58BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21E84F5D-D34A-4FC5-823C-CED6F1EB58BE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED13B73A-13AF-4A58-ADAA-C19D5E234657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED13B73A-13AF-4A58-ADAA-C19D5E234657}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED13B73A-13AF-4A58-ADAA-C19D5E234657}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{86A7A636-CF93-482B-BFD1-6E8A2923465D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86A7A636-CF93-482B-BFD1-6E8A2923465D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86A7A636-CF93-482B-BFD1-6E8A2923465D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D4B1C3-81D1-481C-B0E6-A2F83A24A2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D4B1C3-81D1-481C-B0E6-A2F83A24A2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D4B1C3-81D1-481C-B0E6-A2F83A24A2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D4B1C3-81D1-481C-B0E6-A2F83A24A2D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
